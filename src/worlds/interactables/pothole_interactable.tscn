@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxqmf4cnd21kx"]
+
+[ext_resource type="Script" uid="uid://cwl2lws38meac" path="res://src/worlds/interactables/interface_interactables.gd" id="1_vqmkg"]
+
+[node name="PotholeInteractable" type="Node"]
+script = ExtResource("1_vqmkg")
+metadata/_custom_type_script = "uid://cwl2lws38meac"

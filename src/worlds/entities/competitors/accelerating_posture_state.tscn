@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0blijlolboq4"]
+
+[ext_resource type="Script" uid="uid://c64ttubr267c6" path="res://src/worlds/entities/competitors/interface_posture_state.gd" id="1_ovkr5"]
+
+[node name="AcceleratingPostureState" type="Node"]
+script = ExtResource("1_ovkr5")
+metadata/_custom_type_script = "uid://c64ttubr267c6"

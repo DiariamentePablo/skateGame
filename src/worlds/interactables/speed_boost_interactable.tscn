@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bq0sdi7c1uspp"]
+
+[ext_resource type="Script" uid="uid://cwl2lws38meac" path="res://src/worlds/interactables/interface_interactables.gd" id="1_hwoph"]
+
+[node name="SpeedBoostInteractable" type="Node"]
+script = ExtResource("1_hwoph")
+metadata/_custom_type_script = "uid://cwl2lws38meac"

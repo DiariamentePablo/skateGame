@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bf07fosbgmt4b"]
+
+[ext_resource type="Script" uid="uid://b038g6n4roihe" path="res://src/worlds/entities/competitors/competitor.gd" id="1_q46st"]
+
+[node name="NpcCompetitor" type="Node3D"]
+script = ExtResource("1_q46st")
+metadata/_custom_type_script = "uid://b038g6n4roihe"

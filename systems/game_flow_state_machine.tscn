@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://vbpfyfmi40ry"]
+
+[ext_resource type="Script" uid="uid://cpls1jvdm43kp" path="res://systems/gameflow_fms.gd" id="1_mb58l"]
+[ext_resource type="PackedScene" uid="uid://cmvqlwcpmg5yd" path="res://systems/scene_loader.tscn" id="1_pa05u"]
+
+[node name="GameFlowStateMachine" type="Node"]
+script = ExtResource("1_mb58l")
+
+[node name="SceneLoader" parent="." instance=ExtResource("1_pa05u")]

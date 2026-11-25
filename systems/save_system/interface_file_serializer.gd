@@ -1,0 +1,2 @@
+class_name IFileSerializer
+extends RefCounted

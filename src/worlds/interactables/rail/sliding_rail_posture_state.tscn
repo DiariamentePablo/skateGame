@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://5vyhet0deqqn"]
+
+[ext_resource type="Script" uid="uid://c64ttubr267c6" path="res://src/worlds/entities/competitors/interface_posture_state.gd" id="1_si215"]
+
+[node name="SlidingRailPostureState" type="Node"]
+script = ExtResource("1_si215")
+metadata/_custom_type_script = "uid://c64ttubr267c6"

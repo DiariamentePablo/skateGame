@@ -1,0 +1,19 @@
+[gd_scene load_steps=6 format=3 uid="uid://cc808grgkk0ij"]
+
+[ext_resource type="PackedScene" uid="uid://4vs8xa7twujx" path="res://src/worlds/entities/competitors/idle_posture_state.tscn" id="1_1bwne"]
+[ext_resource type="PackedScene" uid="uid://5vyhet0deqqn" path="res://src/worlds/interactables/rail/sliding_rail_posture_state.tscn" id="2_uegos"]
+[ext_resource type="PackedScene" uid="uid://bqjqgclcdgm1y" path="res://src/worlds/entities/competitors/turning_posture_state.tscn" id="3_ru4u5"]
+[ext_resource type="PackedScene" uid="uid://b0blijlolboq4" path="res://src/worlds/entities/competitors/accelerating_posture_state.tscn" id="4_7xsfi"]
+[ext_resource type="PackedScene" uid="uid://42ncqjpnqfpw" path="res://src/worlds/entities/competitors/paused_posture_state.tscn" id="5_4bynv"]
+
+[node name="CompetitorPostureFsm" type="Node"]
+
+[node name="IdlePostureState" parent="." instance=ExtResource("1_1bwne")]
+
+[node name="SlidingRailPostureState" parent="." instance=ExtResource("2_uegos")]
+
+[node name="TurningPostureState" parent="." instance=ExtResource("3_ru4u5")]
+
+[node name="AcceleratingPostureState" parent="." instance=ExtResource("4_7xsfi")]
+
+[node name="PausedPostureState" parent="." instance=ExtResource("5_4bynv")]

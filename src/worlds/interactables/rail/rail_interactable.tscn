@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqp3p2qa64om"]
+
+[ext_resource type="Script" uid="uid://cwl2lws38meac" path="res://src/worlds/interactables/interface_interactables.gd" id="1_jp5h4"]
+
+[node name="RailInteractable" type="Node"]
+script = ExtResource("1_jp5h4")
+metadata/_custom_type_script = "uid://cwl2lws38meac"

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://di3skdaof1kfn"]
+
+[ext_resource type="Script" uid="uid://b038g6n4roihe" path="res://src/worlds/entities/competitors/competitor.gd" id="1_wrkbx"]
+
+[node name="PlayerCompetitor" type="Node3D"]
+script = ExtResource("1_wrkbx")
+metadata/_custom_type_script = "uid://b038g6n4roihe"

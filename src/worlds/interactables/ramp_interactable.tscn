@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bb75s4we54ehf"]
+
+[ext_resource type="Script" uid="uid://cwl2lws38meac" path="res://src/worlds/interactables/interface_interactables.gd" id="1_tvye7"]
+
+[node name="RampInteractable" type="Node"]
+script = ExtResource("1_tvye7")
+metadata/_custom_type_script = "uid://cwl2lws38meac"
