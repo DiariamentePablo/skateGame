@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://cswedn2tq5v5f"]
+
+[node name="Main" type="Node"]
+editor_description = "O nó principal do projeto inteiro. Serve como pai para todos os outros nós que serão utilizados no jogo."
